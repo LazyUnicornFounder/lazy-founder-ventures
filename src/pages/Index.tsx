@@ -53,8 +53,7 @@ const Index = () => {
     <div className="min-h-screen w-full flex flex-col bg-background">
       {/* Header */}
       <header className="flex flex-col items-center py-8 border-b border-border shrink-0">
-        <div className="flex items-center gap-3">
-          <div className="w-2 h-2 bg-primary" />
+        <div className="flex items-center">
           <span
             className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
             style={{ fontFamily: "var(--font-display)" }}
