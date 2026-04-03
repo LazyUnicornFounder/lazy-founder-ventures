@@ -1,4 +1,9 @@
 import StartupCard from "@/components/StartupCard";
+import lazycloudImg from "@/assets/lazycloud.png";
+import autonomousCapitalismImg from "@/assets/autonomous-capitalism.png";
+import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
+import breakingmuseImg from "@/assets/breakingmuse.png";
+import lazyunicornImg from "@/assets/lazyunicorn.png";
 
 const startups = [
   {
@@ -7,6 +12,7 @@ const startups = [
     url: "https://LazyCloud.ai",
     tagline: "Cloud infrastructure on autopilot — deploy without the overhead.",
     status: "active" as const,
+    image: lazycloudImg,
   },
   {
     index: "02",
@@ -14,6 +20,7 @@ const startups = [
     url: "http://AutonomousCapitalism.com",
     tagline: "AI-driven capital allocation and autonomous market systems.",
     status: "live" as const,
+    image: autonomousCapitalismImg,
   },
   {
     index: "03",
@@ -21,6 +28,7 @@ const startups = [
     url: "http://SoloUnicornLeague.com",
     tagline: "The community for solo founders building billion-dollar companies.",
     status: "live" as const,
+    image: soloUnicornLeagueImg,
   },
   {
     index: "04",
@@ -28,6 +36,7 @@ const startups = [
     url: "http://BreakingMuse.ai",
     tagline: "AI that breaks creative blocks and sparks new ideas.",
     status: "active" as const,
+    image: breakingmuseImg,
   },
   {
     index: "05",
@@ -35,6 +44,7 @@ const startups = [
     url: "http://LazyUnicorn.ai",
     tagline: "Build unicorn-scale products with minimal effort using AI agents.",
     status: "active" as const,
+    image: lazyunicornImg,
   },
 ];
 
