@@ -8,7 +8,7 @@ import lazyunicornImg from "@/assets/lazyunicorn.png";
 const startups = [
   {
     index: "01",
-    name: "LazyCloud.ai",
+    name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
     tagline: "Bring your file server to life.",
     status: "active" as const,
@@ -32,7 +32,7 @@ const startups = [
   },
   {
     index: "04",
-    name: "BreakingMuse.ai",
+    name: "Breaking Muse",
     url: "http://BreakingMuse.ai",
     tagline: "Turn today's news into your next startup idea.",
     status: "active" as const,
@@ -40,7 +40,7 @@ const startups = [
   },
   {
     index: "05",
-    name: "LazyUnicorn.ai",
+    name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
     tagline: "Launch your autonomous business on Lovable.",
     status: "active" as const,
