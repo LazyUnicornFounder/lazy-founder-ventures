@@ -52,26 +52,28 @@ const Index = () => {
   return (
     <div className="min-h-screen w-full flex flex-col bg-background">
       {/* Header */}
-      <header className="flex flex-col items-center py-8 border-b border-border shrink-0">
-        <div className="flex items-center">
-          <span
-            className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Lazy Factory Ventures
-          </span>
-        </div>
+      <header className="relative flex flex-col items-center py-8 border-b border-border shrink-0">
+        <span
+          className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Lazy Factory Ventures
+        </span>
+        <span
+          className="text-muted-foreground text-xs tracking-widest mt-2"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Accelerate autonomous capitalism
+        </span>
         <a
           href="https://x.com/SoloUnicorn"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted-foreground hover:text-primary transition-colors text-xs tracking-widest flex items-center gap-2 mt-2"
-          style={{ fontFamily: "var(--font-display)" }}
+          className="absolute right-6 lg:right-10 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-primary transition-colors"
         >
-          <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-current" aria-hidden="true">
+          <svg viewBox="0 0 24 24" className="w-4 h-4 fill-current" aria-hidden="true">
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
           </svg>
-          @SoloUnicorn
         </a>
       </header>
 
