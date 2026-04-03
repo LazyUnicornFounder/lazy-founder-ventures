@@ -50,9 +50,9 @@ const startups = [
 
 const Index = () => {
   return (
-    <div className="h-screen w-screen overflow-hidden flex flex-col bg-background">
+    <div className="min-h-screen w-full flex flex-col bg-background">
       {/* Header */}
-      <header className="flex items-center justify-between px-6 lg:px-10 py-5 border-b border-border shrink-0">
+      <header className="flex flex-col items-center py-8 border-b border-border shrink-0">
         <div className="flex items-center gap-3">
           <div className="w-2 h-2 bg-primary" />
           <span
@@ -66,7 +66,7 @@ const Index = () => {
           href="https://x.com/SoloUnicorn"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-muted-foreground hover:text-primary transition-colors text-xs tracking-widest flex items-center gap-2"
+          className="text-muted-foreground hover:text-primary transition-colors text-xs tracking-widest flex items-center gap-2 mt-2"
           style={{ fontFamily: "var(--font-display)" }}
         >
           <svg viewBox="0 0 24 24" className="w-3.5 h-3.5 fill-current" aria-hidden="true">
@@ -77,13 +77,13 @@ const Index = () => {
       </header>
 
       {/* Grid */}
-      <main className="flex-1 grid grid-cols-2 grid-rows-3 min-h-0 overflow-hidden">
+      <main className="flex-1 grid grid-cols-2 lg:grid-cols-3 gap-0">
         {startups.map((s) => (
-          <div key={s.index} className="border-r border-b border-border min-h-0 min-w-0 overflow-hidden">
+          <div key={s.index} className="aspect-square border-r border-b border-border overflow-hidden">
             <StartupCard {...s} />
           </div>
         ))}
-        <div className="border-b border-border" />
+        <div className="aspect-square border-b border-border" />
       </main>
 
       {/* Footer */}
