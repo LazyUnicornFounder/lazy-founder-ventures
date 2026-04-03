@@ -8,14 +8,6 @@ import lazyunicornImg from "@/assets/lazyunicorn.png";
 const startups = [
   {
     index: "01",
-    name: "Lazy Cloud",
-    url: "https://LazyCloud.ai",
-    tagline: "Bring your file server to life.",
-    status: "active" as const,
-    image: lazycloudImg,
-  },
-  {
-    index: "02",
     name: "Autonomous Capitalism",
     url: "http://AutonomousCapitalism.com",
     tagline: "Live from X — Follow the autonomous revolution in real time.",
@@ -23,15 +15,7 @@ const startups = [
     image: autonomousCapitalismImg,
   },
   {
-    index: "03",
-    name: "Solo Unicorn League",
-    url: "http://SoloUnicornLeague.com",
-    tagline: "The leaderboard for solo founders racing to $1 billion.",
-    status: "live" as const,
-    image: soloUnicornLeagueImg,
-  },
-  {
-    index: "04",
+    index: "02",
     name: "Breaking Muse",
     url: "http://BreakingMuse.ai",
     tagline: "Turn today's news into your next startup idea.",
@@ -39,12 +23,28 @@ const startups = [
     image: breakingmuseImg,
   },
   {
-    index: "05",
+    index: "03",
+    name: "Lazy Cloud",
+    url: "https://LazyCloud.ai",
+    tagline: "Bring your file server to life.",
+    status: "active" as const,
+    image: lazycloudImg,
+  },
+  {
+    index: "04",
     name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
     tagline: "Launch your autonomous business on Lovable.",
     status: "active" as const,
     image: lazyunicornImg,
+  },
+  {
+    index: "05",
+    name: "Solo Unicorn League",
+    url: "http://SoloUnicornLeague.com",
+    tagline: "The leaderboard for solo founders racing to $1 billion.",
+    status: "live" as const,
+    image: soloUnicornLeagueImg,
   },
 ];
 
