@@ -26,7 +26,7 @@ const startups = [
     index: "03",
     name: "Solo Unicorn League",
     url: "http://SoloUnicornLeague.com",
-    tagline: "The community for solo founders building billion-dollar companies.",
+    tagline: "The leaderboard for solo founders racing to $1 billion.",
     status: "live" as const,
     image: soloUnicornLeagueImg,
   },
