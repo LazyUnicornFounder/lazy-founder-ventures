@@ -59,7 +59,7 @@ const Index = () => {
             className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Ventures
+            Lazy Factory Ventures
           </span>
         </div>
         <a
