@@ -32,7 +32,7 @@ const startups = [
   },
   {
     index: "04",
-    name: "BreakingMuse.ai",
+    name: "Breaking Muse",
     url: "http://BreakingMuse.ai",
     tagline: "Turn today's news into your next startup idea.",
     status: "active" as const,
