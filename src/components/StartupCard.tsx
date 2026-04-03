@@ -9,58 +9,44 @@ interface StartupCardProps {
   image: string;
 }
 
-const statusStyles: Record<string, string> = {
-  active: "bg-primary/15 text-primary",
-  building: "bg-muted text-muted-foreground",
-  live: "bg-primary/15 text-primary",
-};
-
 const StartupCard = ({ index, name, url, tagline, status, image }: StartupCardProps) => {
   return (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative flex items-center justify-center h-full overflow-hidden"
+      className="group relative flex items-center justify-center h-full overflow-hidden bg-black"
     >
-      {/* Background image */}
+      {/* Image shown on hover */}
       <img
         src={image}
         alt={name}
-        className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500"
+        className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-500"
       />
-      <div className="absolute inset-0 bg-background/60 group-hover:bg-background/40 transition-colors duration-500" />
 
-      {/* Top bar */}
-      <div className="absolute top-0 left-0 right-0 z-10 p-4 lg:p-5 flex items-start justify-between">
+      {/* Text content hidden on hover */}
+      <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 group-hover:opacity-0 transition-opacity duration-500">
         <span
-          className="text-muted-foreground text-xs tracking-widest uppercase"
+          className="text-muted-foreground text-xs tracking-widest uppercase mb-3"
           style={{ fontFamily: "var(--font-display)" }}
         >
           {index}
         </span>
-        <span
-          className={`text-[10px] uppercase tracking-widest px-2 py-0.5 ${statusStyles[status]}`}
+        <h2
+          className="text-foreground text-xl lg:text-2xl font-bold tracking-tight"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          {status}
-        </span>
+          {name}
+        </h2>
+        <p className="text-muted-foreground text-sm mt-2 max-w-[80%]">{tagline}</p>
       </div>
 
-      {/* Center name */}
-      <h2
-        className="relative z-10 text-foreground text-xl lg:text-2xl font-bold tracking-tight text-center px-4"
-        style={{ fontFamily: "var(--font-display)" }}
-      >
-        {name}
-      </h2>
-
       {/* Bottom bar */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 p-4 lg:p-5 flex items-end justify-between">
+      <div className="absolute bottom-0 left-0 right-0 z-10 p-4 lg:p-5 flex items-end justify-between group-hover:opacity-0 transition-opacity duration-500">
         <span className="text-muted-foreground text-xs truncate max-w-[70%]" style={{ fontFamily: "var(--font-display)" }}>
           {url.replace(/^https?:\/\//, "")}
         </span>
-        <ArrowUpRight className="w-4 h-4 text-muted-foreground group-hover:text-primary transition-colors" />
+        <ArrowUpRight className="w-4 h-4 text-muted-foreground" />
       </div>
     </a>
   );
