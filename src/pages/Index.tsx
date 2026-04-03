@@ -8,7 +8,7 @@ import lazyunicornImg from "@/assets/lazyunicorn.png";
 const startups = [
   {
     index: "01",
-    name: "LazyCloud.ai",
+    name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
     tagline: "Bring your file server to life.",
     status: "active" as const,
