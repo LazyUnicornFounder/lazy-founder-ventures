@@ -85,15 +85,6 @@ const Index = () => {
         <div className="aspect-square border-b border-border" />
       </main>
 
-      {/* Footer */}
-      <footer className="flex items-center justify-between px-6 lg:px-10 py-3 border-t border-border shrink-0">
-        <span className="text-muted-foreground text-[10px] tracking-widest uppercase" style={{ fontFamily: "var(--font-display)" }}>
-          Portfolio Overview
-        </span>
-        <span className="text-muted-foreground text-[10px] tracking-widest" style={{ fontFamily: "var(--font-display)" }}>
-          © 2026
-        </span>
-      </footer>
     </div>
   );
 };
