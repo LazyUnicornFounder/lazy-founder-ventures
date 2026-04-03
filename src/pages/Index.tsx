@@ -34,7 +34,7 @@ const startups = [
     index: "04",
     name: "BreakingMuse.ai",
     url: "http://BreakingMuse.ai",
-    tagline: "AI that breaks creative blocks and sparks new ideas.",
+    tagline: "Turn today's news into your next startup idea.",
     status: "active" as const,
     image: breakingmuseImg,
   },
