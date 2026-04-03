@@ -80,10 +80,18 @@ export default {
             height: "0",
           },
         },
+        "firefly-border": {
+          "0%": { top: "0%", left: "0%", },
+          "25%": { top: "0%", left: "100%", transform: "translateX(-100%)" },
+          "50%": { top: "100%", left: "100%", transform: "translate(-100%, -100%)" },
+          "75%": { top: "100%", left: "0%", transform: "translateY(-100%)" },
+          "100%": { top: "0%", left: "0%", },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "firefly-border": "firefly-border 3s linear infinite",
       },
     },
   },

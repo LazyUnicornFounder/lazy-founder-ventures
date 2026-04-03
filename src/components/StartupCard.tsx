@@ -15,12 +15,24 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
       rel="noopener noreferrer"
       className="group relative flex items-center justify-center h-full overflow-hidden bg-black"
     >
-      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-6">
-        <img
-          src={image}
-          alt={name}
-          className="max-w-full max-h-full object-contain rounded shadow-2xl"
-        />
+      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-10">
+        <div className="relative max-w-full max-h-full">
+          {/* Firefly border effect */}
+          <div className="absolute -inset-[2px] rounded overflow-hidden">
+            <div className="absolute inset-0 rounded border border-primary/20" />
+            <div
+              className="absolute w-8 h-8 rounded-full blur-sm animate-firefly-border"
+              style={{
+                background: 'radial-gradient(circle, hsl(var(--primary)) 0%, transparent 70%)',
+              }}
+            />
+          </div>
+          <img
+            src={image}
+            alt={name}
+            className="relative max-w-full max-h-full object-contain rounded shadow-2xl"
+          />
+        </div>
       </div>
 
       <div className="relative z-10 flex flex-col items-center justify-center text-center px-4 group-hover:opacity-0 transition-opacity duration-500">
