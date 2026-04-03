@@ -67,12 +67,13 @@ const Index = () => {
       </header>
 
       {/* Grid */}
-      <main className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 min-h-0">
+      <main className="flex-1 grid grid-cols-2 grid-rows-3 min-h-0 overflow-hidden">
         {startups.map((s) => (
-          <div key={s.index} className="border-r border-b border-border last:border-r-0 min-h-0">
+          <div key={s.index} className="border-r border-b border-border min-h-0 min-w-0">
             <StartupCard {...s} />
           </div>
         ))}
+        <div className="border-b border-border" />
       </main>
 
       {/* Footer */}
