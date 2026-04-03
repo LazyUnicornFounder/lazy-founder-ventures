@@ -18,7 +18,7 @@ const startups = [
     index: "02",
     name: "Autonomous Capitalism",
     url: "http://AutonomousCapitalism.com",
-    tagline: "AI-driven capital allocation and autonomous market systems.",
+    tagline: "Live from X — Follow the autonomous revolution in real time.",
     status: "live" as const,
     image: autonomousCapitalismImg,
   },
