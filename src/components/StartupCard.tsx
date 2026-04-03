@@ -42,7 +42,7 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
         >
           {name}
         </h2>
-        <p className="text-muted-foreground text-sm mt-2 max-w-[80%]">{tagline}</p>
+        <p className="text-muted-foreground text-base lg:text-lg mt-2 max-w-[80%]">{tagline}</p>
       </div>
     </a>
   );
