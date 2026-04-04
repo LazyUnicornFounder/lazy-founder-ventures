@@ -5,6 +5,7 @@ import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
 import breakingmuseImg from "@/assets/breakingmuse.png";
 import lazyunicornImg from "@/assets/lazyunicorn.png";
 import lazysandsImg from "@/assets/lazysands.png";
+import lazyexitImg from "@/assets/lazyexit.png";
 
 const startups = [
   {
@@ -33,6 +34,14 @@ const startups = [
   },
   {
     index: "04",
+    name: "Lazy Exit",
+    url: "https://lazyexit.com",
+    tagline: "The marketplace for autonomous businesses.",
+    status: "active" as const,
+    image: lazyexitImg,
+  },
+  {
+    index: "05",
     name: "Lazy Sands",
     url: "https://lazysands.com",
     tagline: "Lovable Platinum certified websites.",
@@ -40,7 +49,7 @@ const startups = [
     image: lazysandsImg,
   },
   {
-    index: "05",
+    index: "06",
     name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
     tagline: "Launch your autonomous business on Lovable.",
@@ -48,7 +57,7 @@ const startups = [
     image: lazyunicornImg,
   },
   {
-    index: "06",
+    index: "07",
     name: "Solo Unicorn League",
     url: "http://SoloUnicornLeague.com",
     tagline: "The leaderboard for solo founders racing to $1 billion.",
