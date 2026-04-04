@@ -34,6 +34,14 @@ const startups = [
   },
   {
     index: "04",
+    name: "Lazy Exit",
+    url: "https://lazyexit.com",
+    tagline: "The marketplace for autonomous businesses.",
+    status: "active" as const,
+    image: lazyexitImg,
+  },
+  {
+    index: "05",
     name: "Lazy Sands",
     url: "https://lazysands.com",
     tagline: "Lovable Platinum certified websites.",
