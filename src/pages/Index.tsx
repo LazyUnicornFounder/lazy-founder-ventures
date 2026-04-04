@@ -5,6 +5,7 @@ import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
 import breakingmuseImg from "@/assets/breakingmuse.png";
 import lazyunicornImg from "@/assets/lazyunicorn.png";
 import lazysandsImg from "@/assets/lazysands.png";
+import lazyexitImg from "@/assets/lazyexit.png";
 
 const startups = [
   {
