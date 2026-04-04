@@ -33,6 +33,14 @@ const startups = [
   },
   {
     index: "04",
+    name: "Lazy Sands",
+    url: "https://lazysands.com",
+    tagline: "Lovable Platinum certified websites.",
+    status: "active" as const,
+    image: lazysandsImg,
+  },
+  {
+    index: "04",
     name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
     tagline: "Launch your autonomous business on Lovable.",
