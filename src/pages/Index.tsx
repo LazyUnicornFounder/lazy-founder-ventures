@@ -4,6 +4,7 @@ import autonomousCapitalismImg from "@/assets/autonomous-capitalism.png";
 import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
 import breakingmuseImg from "@/assets/breakingmuse.png";
 import lazyunicornImg from "@/assets/lazyunicorn.png";
+import lazysandsImg from "@/assets/lazysands.png";
 
 const startups = [
   {
