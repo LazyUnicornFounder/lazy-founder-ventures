@@ -66,7 +66,7 @@ const startups = [
     image: lazyunicornImg,
   },
   {
-    index: "07",
+    index: "08",
     name: "Solo Unicorn League",
     url: "http://SoloUnicornLeague.com",
     tagline: "The leaderboard for solo founders racing to $1 billion.",
