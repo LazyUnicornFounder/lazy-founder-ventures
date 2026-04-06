@@ -6,6 +6,7 @@ import breakingmuseImg from "@/assets/breakingmuse.png";
 import lazyunicornImg from "@/assets/lazyunicorn.png";
 import lazysandsImg from "@/assets/lazysands.png";
 import lazyexitImg from "@/assets/lazyexit.png";
+import lazycanvasImg from "@/assets/lazycanvas.png";
 
 const startups = [
   {
