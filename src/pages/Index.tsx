@@ -42,7 +42,7 @@ const startups = [
     image: lazycloudImg,
   },
   {
-    index: "04",
+    index: "05",
     name: "Lazy Exit",
     url: "https://lazyexit.com",
     tagline: "The marketplace for autonomous businesses.",
