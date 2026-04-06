@@ -21,7 +21,7 @@ const startups = [
     index: "02",
     name: "Breaking Muse",
     url: "http://BreakingMuse.ai",
-    tagline: "Turn today's news into your next startup idea.",
+    tagline: "News powered business ideas.",
     status: "active" as const,
     image: breakingmuseImg,
   },
