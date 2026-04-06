@@ -37,7 +37,7 @@ const startups = [
     index: "05",
     name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
-    tagline: "Bring your file server to life.",
+    tagline: "Enterprise brains.",
     status: "active" as const,
     image: lazycloudImg,
   },
