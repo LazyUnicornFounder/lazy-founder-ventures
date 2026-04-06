@@ -34,7 +34,7 @@ const startups = [
     image: lazycanvasImg,
   },
   {
-    index: "04",
+    index: "05",
     name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
     tagline: "Bring your file server to life.",
