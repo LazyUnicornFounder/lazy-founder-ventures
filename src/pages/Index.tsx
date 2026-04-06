@@ -27,6 +27,14 @@ const startups = [
   },
   {
     index: "03",
+    name: "Lazy Canvas",
+    url: "https://lazycanvas.com",
+    tagline: "Design content for anything.",
+    status: "active" as const,
+    image: lazycanvasImg,
+  },
+  {
+    index: "04",
     name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
     tagline: "Bring your file server to life.",
