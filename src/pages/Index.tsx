@@ -58,7 +58,7 @@ const startups = [
     image: lazysandsImg,
   },
   {
-    index: "06",
+    index: "07",
     name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
     tagline: "Launch your autonomous business on Lovable.",
