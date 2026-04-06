@@ -50,7 +50,7 @@ const startups = [
     image: lazyexitImg,
   },
   {
-    index: "05",
+    index: "06",
     name: "Lazy Sands",
     url: "https://lazysands.com",
     tagline: "Lovable Platinum certified websites.",
