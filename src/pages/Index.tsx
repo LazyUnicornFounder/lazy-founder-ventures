@@ -1,4 +1,5 @@
 import StartupCard from "@/components/StartupCard";
+import UnicornHammockDrawing from "@/components/UnicornHammockDrawing";
 import lazycloudImg from "@/assets/lazycloud.png";
 import autonomousCapitalismImg from "@/assets/autonomous-capitalism.png";
 import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
@@ -86,7 +87,8 @@ const startups = [
 
 const Index = () => {
   return (
-    <div className="h-screen w-full flex flex-col bg-background overflow-hidden">
+    <div className="h-screen w-full flex flex-col bg-background overflow-hidden relative">
+      <UnicornHammockDrawing />
       {/* Header */}
       <header className="relative flex flex-col items-center py-8 border-b-2 border-border shrink-0">
         <span
