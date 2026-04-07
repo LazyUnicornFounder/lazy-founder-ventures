@@ -7,6 +7,7 @@ import lazyunicornImg from "@/assets/lazyunicorn.png";
 import lazysandsImg from "@/assets/lazysands.png";
 import lazyexitImg from "@/assets/lazyexit.png";
 import lazycanvasImg from "@/assets/lazycanvas.png";
+import lazydecacornImg from "@/assets/lazydecacorn.png";
 
 const startups = [
   {
