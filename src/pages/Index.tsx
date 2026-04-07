@@ -88,7 +88,7 @@ const Index = () => {
   return (
     <div className="h-screen w-full flex flex-col bg-background overflow-hidden">
       {/* Header */}
-      <header className="relative flex flex-col items-center py-8 border-b border-border shrink-0">
+      <header className="relative flex flex-col items-center py-8 border-b-2 border-border shrink-0">
         <span
           className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
           style={{ fontFamily: "var(--font-display)" }}
