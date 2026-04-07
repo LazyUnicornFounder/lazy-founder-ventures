@@ -13,11 +13,19 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative flex items-center justify-center h-full overflow-hidden bg-black"
+      className="group relative flex items-center justify-center h-full overflow-hidden"
+      style={{ background: 'var(--metallic-shine)' }}
     >
-      <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-10">
+      {/* Subtle metallic sheen on hover */}
+      <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+        style={{
+          background: 'linear-gradient(135deg, transparent 0%, hsl(0 0% 20% / 0.3) 50%, transparent 100%)',
+        }}
+      />
+
+      <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-10">
         <div className="relative max-w-full max-h-full">
-          {/* Firefly border effect */}
+          {/* Subtle metallic border glow */}
           <div className="absolute -inset-[2px] rounded overflow-hidden">
             <div className="absolute inset-0 rounded border border-primary/20" />
             <div
