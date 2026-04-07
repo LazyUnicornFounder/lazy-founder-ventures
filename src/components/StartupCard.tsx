@@ -19,7 +19,7 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
       {/* Subtle metallic sheen on hover */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700"
         style={{
-          background: 'linear-gradient(135deg, transparent 0%, hsl(220 5% 90% / 0.4) 50%, transparent 100%)',
+          background: 'linear-gradient(135deg, transparent 0%, hsl(40 20% 98% / 0.5) 50%, transparent 100%)',
         }}
       />
 
