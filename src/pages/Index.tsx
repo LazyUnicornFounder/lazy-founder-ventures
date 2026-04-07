@@ -70,7 +70,7 @@ const startups = [
     index: "08",
     name: "Lazy Unicorn",
     url: "http://LazyUnicorn.ai",
-    tagline: "Launch your autonomous business on Lovable.",
+    tagline: "Launch your autonomous business on Lovable",
     status: "active" as const,
     image: lazyunicornImg,
   },
