@@ -13,7 +13,7 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative flex items-center justify-center h-full overflow-hidden bg-background"
+      className="group relative flex items-center justify-center h-full overflow-hidden"
     >
       <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center p-10">
         <div className="relative max-w-full max-h-full">
