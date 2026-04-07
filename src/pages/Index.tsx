@@ -96,7 +96,7 @@ const Index = () => {
           Lazy Founder Ventures
         </span>
         <span
-          className="text-foreground/70 text-xs lg:text-sm tracking-[0.4em] uppercase mt-2 font-bold"
+          className="text-foreground text-xs lg:text-sm tracking-[0.4em] uppercase mt-2 font-extrabold"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Accelerate autonomous capitalism
