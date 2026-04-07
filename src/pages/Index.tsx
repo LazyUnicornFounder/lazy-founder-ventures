@@ -62,7 +62,7 @@ const startups = [
     index: "07",
     name: "Lazy Sands",
     url: "https://lazysands.com",
-    tagline: "Diamond-rated Lovable agency.",
+    tagline: "Diamond-rated Lovable agency",
     status: "active" as const,
     image: lazysandsImg,
   },
