@@ -88,7 +88,7 @@ const Index = () => {
   return (
     <div className="h-screen w-full flex flex-col bg-background overflow-hidden">
       {/* Header */}
-      <header className="relative flex flex-col items-center py-8 border-b border-border shrink-0">
+      <header className="relative flex flex-col items-center py-8 border-b-2 border-border shrink-0">
         <span
           className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
           style={{ fontFamily: "var(--font-display)" }}
@@ -114,13 +114,13 @@ const Index = () => {
       </header>
 
       {/* Grid */}
-      <main className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-[repeat(auto-fill,1fr)] min-h-0 overflow-auto">
+      <main className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr min-h-0 overflow-auto">
         {startups.map((s) => (
-          <div key={s.index} className="border-r border-b border-border overflow-hidden min-h-0">
+          <div key={s.index} className="border-r-2 border-b-2 border-border overflow-hidden min-h-0">
             <StartupCard {...s} />
           </div>
         ))}
-        <div className="border-b border-border" />
+        <div className="border-b-2 border-border" />
       </main>
 
     </div>
