@@ -101,7 +101,7 @@ const Index = () => {
         >
           Accelerate autonomous capitalism
         </span>
-        <div className="flex items-center gap-4 mt-4 lg:mt-0 lg:absolute lg:right-10 lg:top-1/2 lg:-translate-y-1/2">
+        <div className="flex items-center gap-4 mt-4">
           <a
             href="https://www.linkedin.com/company/solo-unicorn/"
             target="_blank"
