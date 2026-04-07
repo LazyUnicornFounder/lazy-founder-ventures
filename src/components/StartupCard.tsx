@@ -41,7 +41,7 @@ const StartupCard = ({ name, url, tagline, image }: StartupCardProps) => {
         >
           {name}
         </h2>
-        <p className="text-muted-foreground text-base lg:text-lg mt-2 whitespace-nowrap">{tagline}</p>
+        <p className="text-foreground text-base lg:text-lg mt-2 whitespace-nowrap">{tagline}</p>
       </div>
     </a>
   );
