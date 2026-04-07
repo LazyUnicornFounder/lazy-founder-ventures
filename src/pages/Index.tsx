@@ -1,4 +1,5 @@
 import StartupCard from "@/components/StartupCard";
+import UnicornHammockDrawing from "@/components/UnicornHammockDrawing";
 import lazycloudImg from "@/assets/lazycloud.png";
 import autonomousCapitalismImg from "@/assets/autonomous-capitalism.png";
 import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
