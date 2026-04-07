@@ -38,7 +38,7 @@ const startups = [
     index: "04",
     name: "Lazy Decacorn",
     url: "https://lazydecacorn.com",
-    tagline: "Game for solo founder decacorn hunters.",
+    tagline: "Game for solo founder decacorn hunters",
     status: "active" as const,
     image: lazydecacornImg,
   },
