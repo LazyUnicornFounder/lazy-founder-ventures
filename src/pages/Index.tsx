@@ -90,13 +90,13 @@ const Index = () => {
       {/* Header */}
       <header className="relative flex flex-col items-center py-8 border-b-2 border-border shrink-0">
         <span
-          className="text-foreground text-sm tracking-[0.3em] uppercase font-bold"
+          className="text-foreground text-2xl lg:text-3xl tracking-[0.3em] uppercase font-black"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Lazy Founder Ventures
         </span>
         <span
-          className="text-muted-foreground text-[10px] tracking-[0.4em] uppercase mt-2"
+          className="text-muted-foreground text-xs lg:text-sm tracking-[0.4em] uppercase mt-2 font-bold"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Accelerate autonomous capitalism
