@@ -30,7 +30,7 @@ const startups = [
     index: "03",
     name: "Lazy Canvas",
     url: "https://lazycanvas.com",
-    tagline: "Design content for anything.",
+    tagline: "Design content for anything",
     status: "active" as const,
     image: lazycanvasImg,
   },
