@@ -46,7 +46,7 @@ const startups = [
     index: "05",
     name: "Lazy Cloud",
     url: "https://LazyCloud.ai",
-    tagline: "Enterprise brains.",
+    tagline: "Enterprise brains",
     status: "active" as const,
     image: lazycloudImg,
   },
