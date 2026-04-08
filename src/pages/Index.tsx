@@ -14,9 +14,9 @@ const startups = [
 
 const Index = () => {
   return (
-    <div className="h-screen w-full flex flex-col bg-background overflow-hidden relative">
+    <div className="min-h-screen w-full flex flex-col bg-background relative">
       {/* Nav */}
-      <nav className="relative z-10 flex items-center gap-4 px-10 lg:px-20 pt-6">
+      <nav className="relative z-10 flex items-center gap-4 px-6 lg:px-20 pt-6">
         <a
           href="https://www.linkedin.com/company/solo-unicorn/"
           target="_blank"
@@ -40,22 +40,22 @@ const Index = () => {
       </nav>
 
       {/* Hero */}
-      <div className="relative z-10 flex-1 flex flex-col justify-center pl-10 lg:pl-20">
+      <div className="relative z-10 flex-1 flex flex-col justify-center px-6 lg:pl-20 py-12 lg:py-0">
         <h1
-          className="text-foreground text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
+          className="text-foreground text-4xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Lazy<br />Founder<br />Ventures
         </h1>
         <p
-          className="text-foreground text-sm lg:text-base tracking-[0.3em] uppercase mt-6 font-extrabold"
+          className="text-foreground text-xs sm:text-sm lg:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mt-4 lg:mt-6 font-extrabold"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Accelerate autonomous capitalism
         </p>
       </div>
 
-      {/* Ticker */}
+      {/* Startups grid */}
       <TickerStrip startups={startups} />
     </div>
   );
