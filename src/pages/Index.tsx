@@ -1,4 +1,4 @@
-import UnicornHammockDrawing from "@/components/UnicornHammockDrawing";
+
 import TickerStrip from "@/components/TickerStrip";
 
 const startups = [
