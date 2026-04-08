@@ -129,7 +129,7 @@ const Index = () => {
       </div>
 
       {/* Startup tiles - single column on right */}
-      <div className="relative z-10 w-72 lg:w-80 flex flex-col h-full border-l-2 border-border overflow-auto">
+      <div className="relative z-10 w-80 lg:w-96 flex flex-col h-full border-l-2 border-border overflow-auto">
         {startups.map((s) => (
           <div key={s.index} className="border-b-2 border-border" style={{ height: `${100 / startups.length}%` }}>
             <StartupCard {...s} />
