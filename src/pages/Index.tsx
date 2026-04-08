@@ -16,7 +16,7 @@ const startups = [
 const Index = () => {
   return (
     <div className="h-screen w-full flex flex-col bg-background overflow-hidden relative">
-      <UnicornHammockDrawing />
+      
 
       {/* Hero */}
       <div className="relative z-10 flex-1 flex flex-col justify-center pl-10 lg:pl-20">
