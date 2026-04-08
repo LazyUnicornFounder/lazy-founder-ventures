@@ -87,23 +87,24 @@ const startups = [
 
 const Index = () => {
   return (
-    <div className="h-screen w-full flex flex-col bg-background overflow-hidden relative">
+    <div className="h-screen w-full flex bg-background overflow-hidden relative">
       <UnicornHammockDrawing />
-      {/* Header */}
-      <header className="relative flex flex-col items-center py-8 border-b-2 border-border shrink-0">
-        <span
-          className="text-foreground text-2xl lg:text-3xl tracking-[0.3em] uppercase font-black text-center"
+
+      {/* Hero Left */}
+      <div className="relative z-10 flex-1 flex flex-col justify-center pl-10 lg:pl-20">
+        <h1
+          className="text-foreground text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Lazy Founder Ventures
-        </span>
-        <span
-          className="text-foreground text-xs lg:text-sm tracking-[0.4em] uppercase mt-2 font-extrabold text-center"
+          Lazy<br />Founder<br />Ventures
+        </h1>
+        <p
+          className="text-foreground text-sm lg:text-base tracking-[0.3em] uppercase mt-6 font-extrabold"
           style={{ fontFamily: "var(--font-display)" }}
         >
           Accelerate autonomous capitalism
-        </span>
-        <div className="flex items-center gap-4 mt-4">
+        </p>
+        <div className="flex items-center gap-4 mt-6">
           <a
             href="https://www.linkedin.com/company/solo-unicorn/"
             target="_blank"
@@ -125,18 +126,16 @@ const Index = () => {
             </svg>
           </a>
         </div>
-      </header>
+      </div>
 
-      {/* Grid */}
-      <main className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 auto-rows-fr min-h-0 overflow-auto">
+      {/* Startup tiles - single column on right */}
+      <div className="relative z-10 w-72 lg:w-80 flex flex-col h-full border-l-2 border-border overflow-auto">
         {startups.map((s) => (
-          <div key={s.index} className="border-r-2 border-b-2 border-border overflow-hidden min-h-0">
+          <div key={s.index} className="border-b-2 border-border" style={{ height: `${100 / startups.length}%` }}>
             <StartupCard {...s} />
           </div>
         ))}
-        <div className="border-b-2 border-border" />
-      </main>
-
+      </div>
     </div>
   );
 };
