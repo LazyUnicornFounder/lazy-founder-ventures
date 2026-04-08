@@ -16,7 +16,8 @@ const Index = () => {
   return (
     <div className="min-h-screen w-full flex flex-col bg-background relative">
       {/* Nav */}
-      <nav className="relative z-10 flex items-center justify-between px-6 lg:px-20 pt-6">
+      {/* Nav */}
+      <nav className="relative z-10 flex items-center justify-end px-6 lg:px-20 pt-6">
         <div className="flex items-center gap-4">
           <a
             href="https://www.linkedin.com/company/solo-unicorn/"
@@ -39,17 +40,16 @@ const Index = () => {
             </svg>
           </a>
         </div>
-        <span
-          className="absolute left-1/2 -translate-x-1/2 text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em]"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Lazy Founder Ventures
-        </span>
-        <div className="w-16" />
       </nav>
 
       {/* Hero */}
       <div className="relative z-10 flex-1 flex flex-col justify-center px-6 lg:pl-20 py-12 lg:py-0">
+        <span
+          className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em] mb-4"
+          style={{ fontFamily: "var(--font-display)" }}
+        >
+          Lazy Founder Ventures
+        </span>
         <h1
           className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
           style={{ fontFamily: "var(--font-display)" }}
