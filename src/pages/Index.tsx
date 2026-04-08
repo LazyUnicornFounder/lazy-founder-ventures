@@ -1,96 +1,24 @@
-import StartupCard from "@/components/StartupCard";
 import UnicornHammockDrawing from "@/components/UnicornHammockDrawing";
-import lazycloudImg from "@/assets/lazycloud.png";
-import autonomousCapitalismImg from "@/assets/autonomous-capitalism.png";
-import soloUnicornLeagueImg from "@/assets/solo-unicorn-league.png";
-import breakingmuseImg from "@/assets/breakingmuse.png";
-import lazyunicornImg from "@/assets/lazyunicorn.png";
-import lazysandsImg from "@/assets/lazysands.png";
-import lazyexitImg from "@/assets/lazyexit.png";
-import lazycanvasImg from "@/assets/lazycanvas.png";
-import lazydecacornImg from "@/assets/lazydecacorn.png";
+import TickerStrip from "@/components/TickerStrip";
 
 const startups = [
-  {
-    index: "01",
-    name: "Autonomous Capitalism",
-    url: "http://AutonomousCapitalism.com",
-    tagline: "Autonomous news about autonomous news",
-    status: "live" as const,
-    image: autonomousCapitalismImg,
-  },
-  {
-    index: "02",
-    name: "Breaking Muse",
-    url: "http://BreakingMuse.ai",
-    tagline: "News powered business ideas",
-    status: "active" as const,
-    image: breakingmuseImg,
-  },
-  {
-    index: "03",
-    name: "Lazy Canvas",
-    url: "https://lazycanvas.com",
-    tagline: "Design content for anything",
-    status: "active" as const,
-    image: lazycanvasImg,
-  },
-  {
-    index: "04",
-    name: "Lazy Decacorn",
-    url: "https://lazydecacorn.com",
-    tagline: "Game for solo founder decacorn hunters",
-    status: "active" as const,
-    image: lazydecacornImg,
-  },
-  {
-    index: "05",
-    name: "Lazy Cloud",
-    url: "https://LazyCloud.ai",
-    tagline: "Enterprise brains",
-    status: "active" as const,
-    image: lazycloudImg,
-  },
-  {
-    index: "06",
-    name: "Lazy Exit",
-    url: "https://lazyexit.com",
-    tagline: "The marketplace for autonomous businesses",
-    status: "active" as const,
-    image: lazyexitImg,
-  },
-  {
-    index: "07",
-    name: "Lazy Sands",
-    url: "https://lazysands.com",
-    tagline: "Diamond-rated Lovable agency",
-    status: "active" as const,
-    image: lazysandsImg,
-  },
-  {
-    index: "08",
-    name: "Lazy Unicorn",
-    url: "http://LazyUnicorn.ai",
-    tagline: "Launch your autonomous business on Lovable",
-    status: "active" as const,
-    image: lazyunicornImg,
-  },
-  {
-    index: "09",
-    name: "Solo Unicorn League",
-    url: "http://SoloUnicornLeague.com",
-    tagline: "The leaderboard for solo founders racing to $1 billion",
-    status: "live" as const,
-    image: soloUnicornLeagueImg,
-  },
+  { name: "Autonomous Capitalism", url: "http://AutonomousCapitalism.com", tagline: "Autonomous news about autonomous news" },
+  { name: "Breaking Muse", url: "http://BreakingMuse.ai", tagline: "News powered business ideas" },
+  { name: "Lazy Canvas", url: "https://lazycanvas.com", tagline: "Design content for anything" },
+  { name: "Lazy Decacorn", url: "https://lazydecacorn.com", tagline: "Game for solo founder decacorn hunters" },
+  { name: "Lazy Cloud", url: "https://LazyCloud.ai", tagline: "Enterprise brains" },
+  { name: "Lazy Exit", url: "https://lazyexit.com", tagline: "The marketplace for autonomous businesses" },
+  { name: "Lazy Sands", url: "https://lazysands.com", tagline: "Diamond-rated Lovable agency" },
+  { name: "Lazy Unicorn", url: "http://LazyUnicorn.ai", tagline: "Launch your autonomous business on Lovable" },
+  { name: "Solo Unicorn League", url: "http://SoloUnicornLeague.com", tagline: "The leaderboard for solo founders racing to $1 billion" },
 ];
 
 const Index = () => {
   return (
-    <div className="h-screen w-full flex bg-background overflow-hidden relative">
+    <div className="h-screen w-full flex flex-col bg-background overflow-hidden relative">
       <UnicornHammockDrawing />
 
-      {/* Hero Left */}
+      {/* Hero */}
       <div className="relative z-10 flex-1 flex flex-col justify-center pl-10 lg:pl-20">
         <h1
           className="text-foreground text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
@@ -128,14 +56,8 @@ const Index = () => {
         </div>
       </div>
 
-      {/* Startup tiles - single column on right */}
-      <div className="relative z-10 w-80 lg:w-96 flex flex-col h-full border-l-2 border-border overflow-auto">
-        {startups.map((s) => (
-          <div key={s.index} className="border-b-2 border-border" style={{ height: `${100 / startups.length}%` }}>
-            <StartupCard {...s} />
-          </div>
-        ))}
-      </div>
+      {/* Ticker */}
+      <TickerStrip startups={startups} />
     </div>
   );
 };
