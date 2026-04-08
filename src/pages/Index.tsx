@@ -1,4 +1,3 @@
-
 import TickerStrip from "@/components/TickerStrip";
 
 const startups = [
