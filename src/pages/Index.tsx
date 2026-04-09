@@ -1,4 +1,5 @@
 import TickerStrip from "@/components/TickerStrip";
+import PricingSection from "@/components/PricingSection";
 
 const startups = [
   { name: "Autonomous Capitalism", url: "http://AutonomousCapitalism.com", tagline: "Autonomous news about autonomous news" },
