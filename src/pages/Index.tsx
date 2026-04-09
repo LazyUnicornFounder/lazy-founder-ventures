@@ -1,5 +1,4 @@
 import TickerStrip from "@/components/TickerStrip";
-import PricingSection from "@/components/PricingSection";
 
 const startups = [
   { name: "Autonomous Capitalism", url: "http://AutonomousCapitalism.com", tagline: "Autonomous news about autonomous news" },
@@ -62,9 +61,6 @@ const Index = () => {
 
       {/* Startups grid */}
       <TickerStrip startups={startups} />
-
-      {/* Pricing */}
-      <PricingSection />
     </div>
   );
 };
