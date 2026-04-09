@@ -8,7 +8,7 @@ const startups = [
   { name: "Lazy Cloud", url: "https://LazyCloud.ai", tagline: "Enterprise brains" },
   { name: "Lazy Exit", url: "https://lazyexit.com", tagline: "The marketplace for autonomous businesses" },
   { name: "Lazy Sands", url: "https://lazysands.com", tagline: "Diamond-rated Lovable agency" },
-  { name: "Lazy Tone", url: "https://lazytone.com", tagline: "Mood boards in 60 seconds" },
+  { name: "Lazy Tones", url: "https://lazytone.com", tagline: "Mood boards in 60 seconds" },
   { name: "Lazy Unicorn", url: "http://LazyUnicorn.ai", tagline: "Launch your autonomous business on Lovable" },
   { name: "Solo Unicorn League", url: "http://SoloUnicornLeague.com", tagline: "The leaderboard for solo founders racing to $1 billion" },
 ];
