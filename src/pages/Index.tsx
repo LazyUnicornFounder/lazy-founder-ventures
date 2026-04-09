@@ -62,6 +62,9 @@ const Index = () => {
 
       {/* Startups grid */}
       <TickerStrip startups={startups} />
+
+      {/* Pricing */}
+      <PricingSection />
     </div>
   );
 };
