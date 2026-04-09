@@ -28,7 +28,7 @@ const Index = () => {
           >
             Blog
           </Link>
-          <
+          <a
             href="https://www.linkedin.com/company/solo-unicorn/"
             target="_blank"
             rel="noopener noreferrer"
