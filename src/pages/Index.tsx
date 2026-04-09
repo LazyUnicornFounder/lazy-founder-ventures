@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import TickerStrip from "@/components/TickerStrip";
 
 const startups = [
@@ -21,13 +20,6 @@ const Index = () => {
       {/* Nav */}
       <nav className="relative z-10 flex items-center justify-end px-6 lg:px-20 pt-6">
         <div className="flex items-center gap-4">
-          <Link
-            to="/blog"
-            className="text-foreground text-xs font-black uppercase tracking-[0.15em] hover:text-primary transition-colors"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Blog
-          </Link>
           <a
             href="https://www.linkedin.com/company/solo-unicorn/"
             target="_blank"
