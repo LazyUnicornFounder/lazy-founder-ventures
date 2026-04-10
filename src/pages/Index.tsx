@@ -60,7 +60,7 @@ const Index = () => {
               <img src="https://lovable.dev/favicon.ico" alt="Lovable" className="w-5 h-5" />
             </a>
             <a href="https://polar.sh" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity" title="Powered by Polar">
-              <img src="https://polar.sh/favicon.ico" alt="Polar" className="w-5 h-5" />
+              <img src="https://polar.sh/favicon.ico" alt="Polar" className="w-5 h-5 dark:invert-0" style={{ filter: "brightness(0)" }} />
             </a>
           </div>
         </div>
