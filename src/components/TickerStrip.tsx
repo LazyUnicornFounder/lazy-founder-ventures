@@ -6,7 +6,7 @@ interface Startup {
 
 const TickerStrip = ({ startups }: { startups: Startup[] }) => {
   return (
-    <div className="relative z-10 px-6 lg:px-20 pb-8 lg:absolute lg:bottom-[10%] lg:left-0 lg:w-full">
+    <div className="relative z-10 px-6 lg:px-20 pb-8 pt-8">
       <div className="flex flex-wrap gap-x-6 gap-y-2 lg:gap-x-8 lg:gap-y-3">
         {startups.map((s, i) => (
           <a
