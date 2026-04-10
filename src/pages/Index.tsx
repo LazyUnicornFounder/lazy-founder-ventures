@@ -46,7 +46,7 @@ const Index = () => {
       </nav>
 
       {/* Hero */}
-      <div className="relative z-10 flex-1 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-0">
+      <div className="relative z-10 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20">
         <span
           className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em] mb-4"
           style={{ fontFamily: "var(--font-display)" }}
@@ -62,7 +62,7 @@ const Index = () => {
         </h1>
       </div>
 
-      <div className="mb-16" />
+      
 
       {/* Startups grid */}
       <TickerStrip startups={startups} />
