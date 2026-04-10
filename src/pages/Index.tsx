@@ -51,6 +51,7 @@ const Index = () => {
           style={{ fontFamily: "var(--font-display)" }}
         >
           Lazy Founder Ventures
+          <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
         </span>
         <h1
           className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
