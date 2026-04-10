@@ -47,13 +47,23 @@ const Index = () => {
 
       {/* Hero */}
       <div className="relative z-10 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20">
-        <span
-          className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em] mb-4"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Lazy Founder Ventures
-          <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
-        </span>
+        <div className="flex items-center gap-3 mb-4 flex-wrap">
+          <span
+            className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em]"
+            style={{ fontFamily: "var(--font-display)" }}
+          >
+            Lazy Founder Ventures
+            <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
+          </span>
+          <div className="flex items-center gap-2">
+            <a href="https://lovable.dev" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity" title="Built with Lovable">
+              <img src="https://lovable.dev/favicon.ico" alt="Lovable" className="w-5 h-5" />
+            </a>
+            <a href="https://polar.sh" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity" title="Powered by Polar">
+              <img src="https://polar.sh/favicon.ico" alt="Polar" className="w-5 h-5" />
+            </a>
+          </div>
+        </div>
         <h1
           className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
           style={{ fontFamily: "var(--font-display)" }}
