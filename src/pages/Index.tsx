@@ -45,29 +45,50 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero */}
-      <div className="relative z-10 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20 pb-4 lg:pb-6">
-        <div className="flex items-center gap-3 mb-4 flex-wrap">
-          <span
-            className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em]"
+      {/* Hero + Startups side by side */}
+      <div className="relative z-10 flex flex-col lg:flex-row justify-between px-6 lg:px-20 py-12 lg:py-20 pb-8 gap-12 lg:gap-8 flex-1">
+        {/* Headline - each word on its own line */}
+        <div className="flex flex-col justify-center">
+          <div className="flex items-center gap-3 mb-4 flex-wrap">
+            <span
+              className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em]"
+              style={{ fontFamily: "var(--font-display)" }}
+            >
+              Lazy Founder Ventures
+              <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
+            </span>
+          </div>
+          <h1
+            className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Lazy Founder Ventures
-            <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
-          </span>
+            Accelerate<br />Autonomous<br />Capitalism<br />For<br />Solo<br />Unicorn<br />Founders
+          </h1>
         </div>
-        <h1
-          className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          Accelerate<br />Autonomous Capitalism<br />For Solo Unicorn Founders
-        </h1>
+
+        {/* Startups column - right aligned container, left aligned text */}
+        <div className="flex flex-col justify-center gap-2 lg:gap-3">
+          {startups.map((s, i) => (
+            <a
+              key={i}
+              href={s.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-baseline gap-2"
+            >
+              <span
+                className="text-foreground text-sm lg:text-xl font-bold tracking-tight uppercase group-hover:text-primary transition-colors"
+                style={{ fontFamily: "var(--font-display)" }}
+              >
+                {s.name}
+              </span>
+              <span className="text-muted-foreground text-[10px] lg:text-sm font-semibold hidden sm:inline">
+                {s.tagline}
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
-
-      
-
-      {/* Startups grid */}
-      <TickerStrip startups={startups} />
     </div>
   );
 };
