@@ -62,6 +62,8 @@ const Index = () => {
         </h1>
       </div>
 
+      <div className="mb-16" />
+
       {/* Startups grid */}
       <TickerStrip startups={startups} />
     </div>
