@@ -46,7 +46,7 @@ const Index = () => {
       </nav>
 
       {/* Hero */}
-      <div className="relative z-10 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20">
+      <div className="relative z-10 flex flex-col justify-center px-6 lg:px-20 py-12 lg:py-20 pb-4 lg:pb-6">
         <div className="flex items-center gap-3 mb-4 flex-wrap">
           <span
             className="text-foreground text-xs sm:text-sm font-black uppercase tracking-[0.15em]"
