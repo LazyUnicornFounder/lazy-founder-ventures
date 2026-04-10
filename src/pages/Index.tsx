@@ -55,14 +55,6 @@ const Index = () => {
             Lazy Founder Ventures
             <span className="ml-2 inline-flex items-center rounded-full bg-primary px-2 py-0.5 text-[10px] sm:text-xs font-semibold text-primary-foreground uppercase tracking-wider">Beta</span>
           </span>
-          <div className="flex items-center gap-2">
-            <a href="https://lovable.dev" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity" title="Built with Lovable">
-              <img src="https://lovable.dev/favicon.ico" alt="Lovable" className="w-5 h-5" />
-            </a>
-            <a href="https://polar.sh" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity" title="Powered by Polar">
-              <img src="https://polar.sh/favicon.ico" alt="Polar" className="w-5 h-5 dark:invert-0" style={{ filter: "brightness(0)" }} />
-            </a>
-          </div>
         </div>
         <h1
           className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
