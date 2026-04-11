@@ -12,7 +12,7 @@ const startups = [
   { name: "Lazy Rent-a-Biz", url: "https://lazyrentabiz.com", tagline: "Rent a business and skip the build" },
   { name: "Lazy Unicorn", url: "http://LazyUnicorn.ai", tagline: "Launch your autonomous business on Lovable" },
   { name: "Jordan Future Labs", url: "https://JordanFutureLabs.com", tagline: "Find Startup Ideas Worth Building in Jordan" },
-  { name: "Lazy LLC", url: "https://lazyllc.com", tagline: "Register your business in Jordan. Launch online. Get paid." },
+  { name: "Lazy LLC", url: "https://lazyllc.com", tagline: "Launch and grow your business in Jordan" },
   { name: "Solo Unicorn League", url: "http://SoloUnicornLeague.com", tagline: "The leaderboard for solo founders racing to $1 billion" },
 ];
 
