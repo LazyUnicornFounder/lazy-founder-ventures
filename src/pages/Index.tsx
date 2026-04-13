@@ -13,6 +13,7 @@ const startups = [
   { name: "Lazy Unicorn", url: "http://LazyUnicorn.ai", tagline: "Launch your autonomous business on Lovable" },
   { name: "Jordan Future Labs", url: "https://JordanFutureLabs.com", tagline: "Find startup ideas worth building in Jordan" },
   { name: "Lazy LLC", url: "https://lazyllc.com", tagline: "Launch and grow your business in Jordan" },
+  { name: "Lazy Academy", url: "https://lazyacademy.com", tagline: "Personalized learning your kids will actually love" },
   { name: "Solo Unicorn League", url: "http://SoloUnicornLeague.com", tagline: "The leaderboard for solo founders racing to $1 billion" },
 ];
 
