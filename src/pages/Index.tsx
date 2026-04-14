@@ -11,7 +11,7 @@ const startups = [
   { name: "Lazy Tones", url: "https://lazytones.com", tagline: "Mood boards in 60 seconds" },
   { name: "Lazy Rent-a-Biz", url: "https://lazyrentabiz.com", tagline: "Rent a business and skip the build" },
   { name: "Lazy Unicorn", url: "http://LazyUnicorn.ai", tagline: "Launch your autonomous business on Lovable" },
-  { name: "Jordan Future Labs", url: "https://JordanFutureLabs.com", tagline: "Find startup ideas worth building in Jordan" },
+  
   { name: "Lazy LLC", url: "https://lazyllc.com", tagline: "Launch and grow your business in Jordan" },
   { name: "Lazy Academy", url: "https://lazyacademy.com", tagline: "Personalized learning your kids will actually love" },
   { name: "Lazy Chatter", url: "https://lazychatter.com", tagline: "Talk about it and ship it" },
