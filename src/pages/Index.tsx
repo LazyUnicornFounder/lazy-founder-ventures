@@ -1,4 +1,5 @@
 import TickerStrip from "@/components/TickerStrip";
+import OpenSourceBanner from "@/components/OpenSourceBanner";
 
 const startups = [
   { name: "Autonomous Capitalism", url: "http://AutonomousCapitalism.com", tagline: "Autonomous news about autonomous news" },
@@ -92,6 +93,9 @@ const Index = () => {
           ))}
         </div>
       </div>
+
+      {/* Open Source */}
+      <OpenSourceBanner />
     </div>
   );
 };
