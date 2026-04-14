@@ -65,7 +65,7 @@ const Index = () => {
             className="text-foreground text-3xl sm:text-5xl lg:text-7xl xl:text-8xl font-black uppercase leading-[0.95] tracking-tight"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Accelerate<br />Autonomous<br />Capitalism<br />For<br />Solo<br />Unicorn<br />Founders
+            open<br />source<br />everything.<br />accelerate<br />autonomous<br />capitalism.
           </h1>
         </div>
 
